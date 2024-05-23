@@ -19,7 +19,7 @@ const Create = () => {
                 </div>
                 <div className="itinbtn_container">
 
-                    <button><img src="/images/road.png" className="road" />Create a Trip ititnerary</button>
+                    <button><img src="/images/road.png" className="road" />Create a Trip itinerary</button>
                 </div>
             </div>
         </div>
