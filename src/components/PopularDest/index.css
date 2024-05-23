@@ -4,6 +4,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+
 }
 .popular-destination {
   padding: 20px;
@@ -19,6 +20,7 @@
 
 .cards-container {
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 20px;
 }
