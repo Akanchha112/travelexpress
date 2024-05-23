@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.create {
+    height: 36vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    overflow: hidden;
+  }
+  .contentwrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .create-content {
+    padding: 20px 120px 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    overflow: hidden;
+  }
+  .logoparent{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    height: 40.2px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  }
+  .travel-heading{
+    margin: 0;
+    padding-left: 10px;
+  position: relative;
+  font-size:  28px;
+  letter-spacing: -0.05em;
+  text-transform: lowercase;
+  font-weight: 300;
+  font-family: Poppins;
+  display: inline-block
+  }
+  .profile-pic {
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+.itinbtn_container{
+    font-family: Poppins;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.itinbtn_container button{
+
+    width: max-content;
+    padding: 0 20px;
+    height: 42px;
+    font-family: inherit;
+    font-size: 18px;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    background-color: #006fcf;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+}
+.road{
+    height: 60%;
+}
+
+@media screen and (max-width: 1100px){
+    .travel-heading{
+        font-size: 24px;
+    }
+    .itinbtn_container button{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 725px){
+    .create-content {
+        padding: 20px 70px 0 70px;
+    }
+}
+@media screen and (max-width: 450px){
+    .create-content {
+        padding: 15px 20px 0 20px;
+    }
+    .travel-heading{
+        padding-left: 6px;
+        font-size: 22px;
+    }
+    .itinbtn_container button{
+        font-size: 14px;
+    }
+    .logo {
+        height: 36.2px;
+      width: 38px;
+    }
+    .profile-pic{
+        width: 40px;
+    }
+    .itinbtn_container button{
+        padding: 0 10px;
+        height: 38px;
+    }
+}
